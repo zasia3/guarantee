@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "998ffb1021b34a40043fe4d16014cf97"
+build_time: [548935936, 370569000]
+inputs:
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/BlockingObservable+Operators.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/BlockingObservable.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/ObservableConvertibleType+Blocking.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Platform.Darwin.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Platform.Linux.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/RecursiveLock.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Resources.swift": [548935898, 0]
+  "/Users/joannazatorska/Guaranteer/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/RunLoopLock.swift": [548935898, 0]

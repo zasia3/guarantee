@@ -1,0 +1,39 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import XCTest
+@testable import {{ module_info.project_name }}
+
+class {{ module_info.name }}ViewModelTests: XCTestCase {
+
+    var viewModel: {{ module_info.name }}ViewModel!
+    var mockView: Mock{{ module_info.name }}View!
+    var mockRouter: Mock{{ module_info.name }}Router!
+
+    override func setUp() {
+        super.setUp()
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+        mockView = Mock{{ module_info.name }}View()
+        mockRouter = Mock{{ module_info.name }}Router()
+
+        viewModel = {{ module_info.name }}ViewModel()
+        viewModel.view = mockView
+        viewModel.router = mockRouter
+    }
+
+    override func tearDown() {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+    }
+
+    /// Tests
+    func testViewModelNotNil() {
+        XCTAssertNotNil(viewModel)
+    }
+}

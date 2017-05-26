@@ -1,0 +1,40 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import Utilities
+
+final class {{ module_info.name }}ViewController: ViewController {
+
+    var viewModel: {{ module_info.name }}ViewModelProtocol!
+
+    // MARK: Life cycle
+    override func onInit() {
+        super.onInit()
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        viewModel.viewDidLoad()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewModel.viewWillAppear()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        viewModel.viewDidAppear()
+    }
+
+}
+
+extension {{ module_info.name }}ViewController: {{module_info.name}}ViewProtocol {
+
+}

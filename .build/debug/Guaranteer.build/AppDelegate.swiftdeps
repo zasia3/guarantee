@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C10Guaranteer11AppDelegate"
+provides-member:
+- ["C10Guaranteer11AppDelegate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AppDelegate"
+- "Bool"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- "UIWindow"
+depends-member:
+- ["Ps9AnyObject", "UIApplication"]
+- ["Ps9AnyObject", "UIApplicationLaunchOptionsKey"]
+- ["Ps9AnyObject", "UIWindow"]
+- ["Ps9AnyObject", ""]
+- ["C10Guaranteer11AppDelegate", "Bool"]
+- ["C10Guaranteer11AppDelegate", "UIApplication"]
+- ["C10Guaranteer11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C10Guaranteer11AppDelegate", "UIWindow"]
+- ["C10Guaranteer11AppDelegate", "deinit"]
+- ["C10Guaranteer11AppDelegate", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Guaranteer11AppDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/joannazatorska/Guaranteer/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "b306772a10463f7c5fce689aa6452f8e"

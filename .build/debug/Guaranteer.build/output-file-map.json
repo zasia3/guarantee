@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/master.swiftdeps"
+  },
+  "/Users/joannazatorska/Guaranteer/Guaranteer/AppDelegate.swift": {
+    "dependencies": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/AppDelegate.d",
+    "object": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/AppDelegate.swiftdeps"
+  },
+  "/Users/joannazatorska/Guaranteer/Guaranteer/ViewController.swift": {
+    "dependencies": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/ViewController.d",
+    "object": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/ViewController.swift.o",
+    "swiftmodule": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/ViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/joannazatorska/Guaranteer/.build/debug/Guaranteer.build/ViewController.swiftdeps"
+  }
+}

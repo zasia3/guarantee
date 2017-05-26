@@ -1,0 +1,26 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C10Guaranteer14ViewController"
+provides-member:
+- ["C10Guaranteer14ViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIViewController"
+- "ViewController"
+depends-member:
+- ["Ps9AnyObject", ""]
+- ["C10Guaranteer14ViewController", "deinit"]
+- ["C10Guaranteer14ViewController", "didReceiveMemoryWarning"]
+- ["C10Guaranteer14ViewController", "init"]
+- ["C10Guaranteer14ViewController", "viewDidLoad"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10Guaranteer14ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/joannazatorska/Guaranteer/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "2273e0b6560749631899e82af2412a52"

@@ -1,0 +1,37 @@
+# Template information section
+name: "MVVM"
+summary: "MVVM Template for swift"
+author: "Maciej Czupryna"
+version: "0.1.0"
+license: "MIT"
+
+
+# ======== The declarations for code files ========
+
+code_files:
+# View layer
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+- {name: View/Storyboard.storyboard, path: Code/View/viewstoryboard.storyboard.liquid}
+
+# ViewModel layer
+- {name: ViewModel/ViewProtocol.swift,  path: Code/ViewModel/view_protocol.swift.liquid}
+- {name: ViewModel/ViewModelProtocol.swift, path: Code/ViewModel/viewmodel_protocol.swift.liquid}
+- {name: ViewModel/ViewModel.swift, path: Code/ViewModel/viewmodel.swift.liquid}
+
+# Router layer
+- {name: Router/RouterProtocol.swift, path: Code/Router/router_protocol.swift.liquid}
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+
+# ======== The declarations for test files ========
+test_files:
+
+# ViewModel tests
+- {name: ViewModel/ViewModelTests.swift, path: Tests/ViewModel/viewmodel_tests.swift.liquid}
+
+# Router tests
+- {name: Router/RouterTests.swift, path: Tests/Router/router_tests.swift.liquid}
+
+# Mocks
+- {name: Mocks/RouterMock.swift, path: Tests/Mocks/mock_router.swift.liquid}
+- {name: Mocks/ViewMock.swift, path: Tests/Mocks/mock_view.swift.liquid}

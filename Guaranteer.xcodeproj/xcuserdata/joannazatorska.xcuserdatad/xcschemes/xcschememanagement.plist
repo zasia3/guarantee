@@ -9,13 +9,33 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Reactive.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>53862969A1E774A110ED8A06</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>53862CDB3927BD1F81C9E1DD</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
 		<key>E77FC6FC1ED5900D0000C0CE</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
+		</dict>
+		<key>E77FC71B1ED598180000C0CE</key>
+		<dict>
+			<key>primary</key>
+			<true />
 		</dict>
 	</dict>
 </dict>

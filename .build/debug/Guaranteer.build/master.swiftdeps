@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "522448f4317e64fd238bd4fc3823a855"
+build_time: [548935965, 658767000]
+inputs:
+  "/Users/joannazatorska/Guaranteer/Guaranteer/AppDelegate.swift": !dirty [548934925, 0]
+  "/Users/joannazatorska/Guaranteer/Guaranteer/ViewController.swift": !dirty [548934925, 0]

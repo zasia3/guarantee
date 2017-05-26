@@ -1,0 +1,36 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+import Utilities
+
+final class {{ module_info.name }}Router: Router {
+
+    static func instantiateViewController(navigationController: UINavigationController) -> {{ module_info.name }}ViewController {
+
+        let router = {{ module_info.name }}Router(navigationController: navigationController)
+        let viewModel = {{ module_info.name }}ViewModel()
+        viewModel.router = router
+        let viewController = {{ module_info.name }}ViewController.instantiateFromStoryboard()
+        viewModel.view = viewController
+        viewController.viewModel = viewModel
+        return viewController
+    }
+
+    static func show(navigationController: UINavigationController, animated: Bool = true) {
+        navigationController.pushViewController(instantiateViewController(navigationController: navigationController), animated: animated)
+    }
+
+    static func showAsRoot(navigationController: UINavigationController, animated: Bool = false) {
+        navigationController.setViewControllers([instantiateViewController(navigationController: navigationController)], animated: animated)
+    }
+}
+
+extension {{ module_info.name }}Router: {{ module_info.name }}RouterProtocol {
+
+}
