@@ -1,0 +1,19 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+
+protocol {{ module_info.name }}ViewDelegate {
+
+    /// Notify view model that view did load
+    func viewDidLoad()
+    /// Notify view model that view is about to be presented
+    func viewWillAppear()
+    /// Notify view model that view did present
+    func viewDidAppear()
+}

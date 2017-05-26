@@ -25,4 +25,10 @@ public extension UITableView {
 
         return cell
     }
+    
+    public func deselectSelectedRow(animated: Bool) {
+        if let indexPath = indexPathForSelectedRow {
+            deselectRow(at: indexPath, animated: animated)
+        }
+    }
 }

@@ -11,7 +11,7 @@ import Utilities
 
 final class {{ module_info.name }}ViewController: ViewController {
 
-    var viewModel: {{ module_info.name }}ViewModelProtocol!
+    var delegate: {{ module_info.name }}ViewDelegate!
 
     // MARK: Life cycle
     override func onInit() {
@@ -20,17 +20,17 @@ final class {{ module_info.name }}ViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.viewDidLoad()
+        delegate.viewDidLoad()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        viewModel.viewWillAppear()
+        delegate.viewWillAppear()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        viewModel.viewDidAppear()
+        delegate.viewDidAppear()
     }
 
 }

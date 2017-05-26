@@ -18,7 +18,7 @@ final class {{ module_info.name }}Router: Router {
         viewModel.router = router
         let viewController = {{ module_info.name }}ViewController.instantiateFromStoryboard()
         viewModel.view = viewController
-        viewController.viewModel = viewModel
+        viewController.delegate = viewModel
         return viewController
     }
 

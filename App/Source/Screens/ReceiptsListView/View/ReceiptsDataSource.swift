@@ -22,6 +22,10 @@ final class ReceiptsDataSource {
         tableView.register(ReceiptTableViewCell.self)
         setupDataSource()
     }
+    
+    func itemFor(indexPath: IndexPath) -> Receipt {
+        return data[indexPath.section].items[indexPath.row]
+    }
 
     private func setupDataSource() {
         data = [DataMock.getSection()]

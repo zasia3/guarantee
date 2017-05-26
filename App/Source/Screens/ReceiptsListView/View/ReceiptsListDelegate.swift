@@ -8,7 +8,10 @@
 
 import Foundation
 import iOSKit
+import Model
 
 protocol ReceiptsListDelegate: ViewModelProtocol {
+    
+    func showDetails(for item: Receipt)
 
 }

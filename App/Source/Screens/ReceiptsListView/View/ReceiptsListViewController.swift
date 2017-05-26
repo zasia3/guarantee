@@ -50,11 +50,20 @@ final class ReceiptsListViewController: ViewController {
 
         tableView.rx.itemSelected.subscribe(onNext: { [weak self] indexPath in
             print(indexPath)
+            self?.selectedItem(indexPath: indexPath)
         })
     }
+    
+    private func selectedItem(indexPath: IndexPath) {
+        deselectSelectedRow(animated: false)
+        guard let receipt = dataSource?.itemFor(indexPath: indexPath) else {
+            fatalError("Could not receive Receipt from data source")
+        }
+        viewModel.showDetails(for: receipt)
+    }
 
-    private func deselectSelectedRow() {
-        tableView.deselectSelectedRow(animated: false)
+    private func deselectSelectedRow(animated: Bool) {
+        tableView.deselectSelectedRow(animated: animated)
     }
 }
 

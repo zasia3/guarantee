@@ -17,13 +17,13 @@ project_group_path: App/Source/Screens
 
 ### Tests generation settings section
 # The tests target name
-test_target: GuaranteerTests
+#test_target: GuaranteerTests
 
 # The file path for new tests
-test_file_path: AppTests/Source/Screens
+#test_file_path: AppTests/Source/Screens
 
 # The Xcode group path to new tests
-test_group_path: AppTests/Source/Screens
+#test_group_path: AppTests/Source/Screens
 
 ### Templates
 templates:

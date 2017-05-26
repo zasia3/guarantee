@@ -10,12 +10,12 @@ license: "MIT"
 
 code_files:
 # View layer
+- {name: View/ViewProtocol.swift,  path: Code/View/view_protocol.swift.liquid}
+- {name: View/ViewDelegate.swift, path: Code/View/view_delegate.swift.liquid}
 - {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
 - {name: View/Storyboard.storyboard, path: Code/View/viewstoryboard.storyboard.liquid}
 
 # ViewModel layer
-- {name: ViewModel/ViewProtocol.swift,  path: Code/ViewModel/view_protocol.swift.liquid}
-- {name: ViewModel/ViewModelProtocol.swift, path: Code/ViewModel/viewmodel_protocol.swift.liquid}
 - {name: ViewModel/ViewModel.swift, path: Code/ViewModel/viewmodel.swift.liquid}
 
 # Router layer

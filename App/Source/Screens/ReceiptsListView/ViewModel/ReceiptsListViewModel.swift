@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Model
 
 final class ReceiptsListViewModel: ReceiptsListDelegate {
 
@@ -24,5 +25,9 @@ final class ReceiptsListViewModel: ReceiptsListDelegate {
 
     func viewDidAppear() {
 
+    }
+    
+    func showDetails(for item: Receipt) {
+        router.showDetails(for: item)
     }
 }

@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import Model
 
 protocol ReceiptsListRouterProtocol {
-
+    func showDetails(for item: Receipt)
 }

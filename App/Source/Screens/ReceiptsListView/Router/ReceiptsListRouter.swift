@@ -7,8 +7,8 @@
 //
 
 import UIKit
-//import Utilities
-//
+import Model
+
 final class ReceiptsListRouter: Router {
 
     static func instantiateViewController(navigationController: UINavigationController) -> ReceiptsListViewController {
@@ -32,5 +32,7 @@ final class ReceiptsListRouter: Router {
 }
 
 extension ReceiptsListRouter: ReceiptsListRouterProtocol {
-
+    func showDetails(for item: Receipt) {
+        ReceiptDetailsRouter.show(navigationController: navigationController, receipt: item)
+    }
 }

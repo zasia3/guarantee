@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E46D03DB8123F3E3EEA819 /* ReceiptDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DAA8139B936071E942092C /* ReceiptDetailsViewModel.swift */; };
+		1DABEC6923F92494A0520ED5 /* ReceiptDetailsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD651CC827CA6382394C091C /* ReceiptDetailsStoryboard.storyboard */; };
+		3F115966B3B4174FC79FFCBD /* ReceiptDetailsViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA4D11B84A4D35C9DAEAB8 /* ReceiptDetailsViewDelegate.swift */; };
 		5386222290C9CE6B0FE9F929 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53862993F79F99D31665E0F6 /* ReusableView.swift */; };
 		5386225E6DCA7E309768A4EB /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538625FF6E841F2F0953A4C8 /* UIViewController+Storyboard.swift */; };
 		538622B6F88575591437983C /* ReceiptsListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538629384B8A675CE9DFE6A9 /* ReceiptsListDelegate.swift */; };
@@ -23,6 +26,10 @@
 		53862CB7BE3BD89FEF5AF651 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538621E3895459174CEA7875 /* UITableView+Ext.swift */; };
 		53862EF5EE47B4BCBFC8F6B4 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538628114D189CB6B606643C /* ReceiptTableViewCell.swift */; };
 		53862FF92472CCF055AD22C1 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 53862448659E29E8643F28A2 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		713CBB9CC814F2F8FB91C991 /* ReceiptDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D095F02C3DCFA81D3E332C /* ReceiptDetailsRouter.swift */; };
+		7C9DFC36D7EA4FAFEE4A1890 /* ReceiptDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B090C2EBB08CCB1C41AB5 /* ReceiptDetailsViewController.swift */; };
+		CB02DB75F75CDAF748357755 /* ReceiptDetailsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046D3D5A1690178EB9E0A54 /* ReceiptDetailsRouterProtocol.swift */; };
+		DC828BA569E49D1AA1BE268A /* ReceiptDetailsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F307FFCE8947D311F041B58 /* ReceiptDetailsViewProtocol.swift */; };
 		E72DC7DE1ED5CF9900D31453 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72DC7DC1ED5CF9900D31453 /* RxSwift.framework */; };
 		E72DC7DF1ED5CFAC00D31453 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E72DC7DB1ED5CF9900D31453 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E72DC7E01ED5CFAC00D31453 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E72DC7DC1ED5CF9900D31453 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -83,6 +90,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03DAA8139B936071E942092C /* ReceiptDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewModel.swift; sourceTree = "<group>"; };
+		33AA4D11B84A4D35C9DAEAB8 /* ReceiptDetailsViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewDelegate.swift; sourceTree = "<group>"; };
 		538620FA47903FF4099B2D36 /* ReceiptsListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsListProtocol.swift; sourceTree = "<group>"; };
 		53862137B4249E7B90D18AB2 /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
 		53862170BB4665E97D18B914 /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
@@ -103,6 +112,10 @@
 		53862B180C0EEFD4F622F8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		53862D28F6C29B6A71839D31 /* iOSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSKit.h; sourceTree = "<group>"; };
 		53862ED1C0889B55E83CA686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6F307FFCE8947D311F041B58 /* ReceiptDetailsViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewProtocol.swift; sourceTree = "<group>"; };
+		84D095F02C3DCFA81D3E332C /* ReceiptDetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsRouter.swift; sourceTree = "<group>"; };
+		AD651CC827CA6382394C091C /* ReceiptDetailsStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; path = ReceiptDetailsStoryboard.storyboard; sourceTree = "<group>"; };
+		E046D3D5A1690178EB9E0A54 /* ReceiptDetailsRouterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsRouterProtocol.swift; sourceTree = "<group>"; };
 		E72DC7DB1ED5CF9900D31453 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Reactive/RxCocoa.framework; sourceTree = "<group>"; };
 		E72DC7DC1ED5CF9900D31453 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Reactive/RxSwift.framework; sourceTree = "<group>"; };
 		E72DC7E61ED6BF4100D31453 /* ReceiptsListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsListRouter.swift; sourceTree = "<group>"; };
@@ -120,6 +133,7 @@
 		E77FC7071ED5900D0000C0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Guaranteer/Assets.xcassets; sourceTree = "<group>"; };
 		E77FC70A1ED5900D0000C0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77FC70C1ED5900D0000C0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Guaranteer/Info.plist; sourceTree = "<group>"; };
+		F55B090C2EBB08CCB1C41AB5 /* ReceiptDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReceiptDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +217,48 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		6ACD7F2C7A26D3B19543A91D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F307FFCE8947D311F041B58 /* ReceiptDetailsViewProtocol.swift */,
+				33AA4D11B84A4D35C9DAEAB8 /* ReceiptDetailsViewDelegate.swift */,
+				F55B090C2EBB08CCB1C41AB5 /* ReceiptDetailsViewController.swift */,
+				AD651CC827CA6382394C091C /* ReceiptDetailsStoryboard.storyboard */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		A50822411ED10D0607B1BEC3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E046D3D5A1690178EB9E0A54 /* ReceiptDetailsRouterProtocol.swift */,
+				84D095F02C3DCFA81D3E332C /* ReceiptDetailsRouter.swift */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B7CF43A40282F5E0301F97BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03DAA8139B936071E942092C /* ReceiptDetailsViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA4C22E221F8D67FAB77781A /* ReceiptDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD7F2C7A26D3B19543A91D /* View */,
+				B7CF43A40282F5E0301F97BD /* ViewModel */,
+				A50822411ED10D0607B1BEC3 /* Router */,
+			);
+			name = ReceiptDetails;
+			path = ReceiptDetails;
+			sourceTree = "<group>";
+		};
 		E72DC7DA1ED5CF9900D31453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				E72DC7E41ED6BF4100D31453 /* ReceiptsListView */,
+				CA4C22E221F8D67FAB77781A /* ReceiptDetails */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -507,6 +564,7 @@
 				E77FC70B1ED5900D0000C0CE /* LaunchScreen.storyboard in Resources */,
 				E77FC7081ED5900D0000C0CE /* Assets.xcassets in Resources */,
 				E72DC7F71ED6BF4100D31453 /* ReceiptsListStoryboard.storyboard in Resources */,
+				1DABEC6923F92494A0520ED5 /* ReceiptDetailsStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +611,12 @@
 				538623B4120A85999FE3AC3B /* Section.swift in Sources */,
 				538625D51BA32EA40F79C408 /* DataMock.swift in Sources */,
 				53862EF5EE47B4BCBFC8F6B4 /* ReceiptTableViewCell.swift in Sources */,
+				DC828BA569E49D1AA1BE268A /* ReceiptDetailsViewProtocol.swift in Sources */,
+				3F115966B3B4174FC79FFCBD /* ReceiptDetailsViewDelegate.swift in Sources */,
+				7C9DFC36D7EA4FAFEE4A1890 /* ReceiptDetailsViewController.swift in Sources */,
+				14E46D03DB8123F3E3EEA819 /* ReceiptDetailsViewModel.swift in Sources */,
+				CB02DB75F75CDAF748357755 /* ReceiptDetailsRouterProtocol.swift in Sources */,
+				713CBB9CC814F2F8FB91C991 /* ReceiptDetailsRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
